@@ -1,0 +1,51 @@
+# 자바_KH_12강
+
+# 참조 자료형
+
+**변수의 자료형**
+
+1. 기본 자료형
+- int, long, float, double 등
+
+1. 참조 자료형 (클래스로 제공. 자바 라이브러리)
+- String, Date, Student 등
+
+클래스 형으로 선언하는 자료형 ????
+
+**참조 자료형 예**
+
+JDK에서 제공하는것들 보시면 됩니다
+
+실질적으로 우리가 코드 상에서 참조자료형을 만들어서 쓰는 경우에 대하여~
+
+
+코딩 ㄱㄱ
+
+원을 나타내는 변수 좌표
+
+int x;
+int y;
+int radius;
+
+x,y는 하나의 점이기에
+
+Point point;
+int radius;
+
+도 가능.
+
+constructer에서 참조변수의 객체를 생성을 합니다. (?????????????????)
+
+package reference;
+public class circle {
+  public static void main(String[] args) {
+    Point point;
+    int radius;
+
+  public Circle( ) {
+    point = new Point();
+    }
+  }
+}
+
+클래스 안에서 클래스를 가져다가 참조변수로 쓰는 것
